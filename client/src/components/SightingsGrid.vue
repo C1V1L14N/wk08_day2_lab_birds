@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import { eventBus } from '@/main.js';
+import SightingService from '@/services/SightingService.js';
 import Sighting from './Sighting';
 
 export default {
